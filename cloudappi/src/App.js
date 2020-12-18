@@ -14,6 +14,19 @@ function App() {
   const [error, setError] = useState(undefined);
   const [idUser, setIdUser] = useState(undefined);
 
+  document.addEventListener("DOMContentLoaded", () => {
+    preventEnter();
+  });
+
+  const preventEnter = () => {
+    document.querySelectorAll("input").forEach((node) =>
+      node.addEventListener("keypress", (e) => {
+        if (e.keyCode === 13) {
+          e.preventDefault();
+        }
+      })
+    );
+  };
   const search = () => {
     if (idUser === undefined) {
       searchAllUsers();
@@ -53,23 +66,24 @@ function App() {
       setIdUser(eve.target.value);
     }
   };
+
   return (
     <>
       <MyHeader search={search} setIdUser={setIdUser} />
-      <Form inline>
+      <Form inline className="justify-content-center my-5">
         <FormControl
+          className="col-sm-2 "
           type="number"
           placeholder="empty or userId"
-          className="mr-sm-2"
           onBlur={setId}
         />
         <Button variant="outline-success" onClick={search}>
           Search
         </Button>
       </Form>
-      <div className="App">
+      <div className="d-flex flex-row justify-content-center">
         {users && users.map((user) => <User key={user.id} user={user} />)}
-        {error && <h1>User {error}</h1>}
+        {error && <h3>User {error}</h3>}
       </div>
       <Footer />
     </>

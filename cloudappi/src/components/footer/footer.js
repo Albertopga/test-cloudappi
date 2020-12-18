@@ -2,8 +2,8 @@ import React from "react";
 import "@fortawesome/react-fontawesome";
 import "./footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {} from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+// import {} from "@fortawesome/free-solid-svg-icons";
 
 //TODO: add icons and learn to use font awesome
 const Footer = () => {
@@ -12,32 +12,17 @@ const Footer = () => {
       <div className="footer-middle">
         <div className="container">
           <div className="row">
-            <div className="col-md-3 col-sm-6">
+            <div className="col-xl col-sm-6">
               <div className="footer-pad">
-                <h4>Heading 1</h4>
-                <ul className="list-unstyled">
-                  <li>
-                    <a href="#"></a>
-                  </li>
-                  <li>
-                    <a href="#">Payment Center</a>
-                  </li>
-                  <li>
-                    <a href="#">Contact Directory</a>
-                  </li>
-                  <li>
-                    <a href="#">Forms</a>
-                  </li>
-                  <li>
-                    <a href="#">News and Updates</a>
-                  </li>
-                  <li>
-                    <a href="#">FAQs</a>
-                  </li>
-                </ul>
+                <h4>About me</h4>
+                <p>
+                  My name is Alberto Pérez and I am a beginner but with a lot of
+                  desire to continue learning, improve the skills acquired and I
+                  give everything to achieve the objectives.
+                </p>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-4 col-md-offset-4">
               <h4>Follow Me</h4>
               <ul className="social-network social-circle">
                 <li>
@@ -70,56 +55,13 @@ const Footer = () => {
           <div className="row">
             <div className="col-md-12 copy">
               <p className="text-center">
-                &copy; Copyright 2018 - Company Name. All rights reserved.
+                &copy; Copyright 2020 - All rights reserved only lefts.
               </p>
             </div>
           </div>
         </div>
       </div>
     </footer>
-    // <footer className="site-footer">
-    //   <div className="container">
-    //     <h6>About</h6>
-    //     <p className="text-justify">
-    //       Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative to help
-    //       the upcoming programmers with the code. Scanfcode focuses on providing
-    //       the most efficient code or snippets as the code wants to be simple. We
-    //       will help programmers build up concepts in different programming
-    //       languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript,
-    //       PHP, Android, SQL and Algorithm.
-    //     </p>
-    //   </div>
-    //   <hr />
-    //   <div className="container">
-    //     <div className="row">
-    //       <div className="col-md-8 col-sm-6 col-xs-12">
-    //         <p className="copyright-text">22-12-2020 by Alberto Pérez.</p>
-    //       </div>
-    //       <div className="col-md-4">
-    //         <ul className="social-icons">
-    //           <li>
-    //             <a
-    //               className="linkedin"
-    //               href="https://www.linkedin.com/in/albertopga/"
-    //               target={"_blank"}
-    //             >
-    //               <i className="" />
-    //             </a>
-    //           </li>
-    //           <li>
-    //             <a
-    //               className="github"
-    //               href="https://github.com/Albertopga"
-    //               target={"_blank"}
-    //             >
-    //               <i className="" />
-    //             </a>
-    //           </li>
-    //         </ul>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </footer>
   );
 };
 

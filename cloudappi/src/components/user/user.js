@@ -8,14 +8,15 @@ export const User = ({ user }) => {
 
   return (
     <div className="card">
-      <h1>
-        ({id}) {name}
-      </h1>
-      <ul>
+      <div className="card-body">
+        <h6 className="card-subtitle mb-2 text-muted">id: {id}</h6>
+        <h5 className="card-title">{name}</h5>
         {toPairs(restUser).map(([key, value]) => (
-          <li key={key}>{value}</li>
+          <p className="card-text" key={key}>
+            {value}
+          </p>
         ))}
-      </ul>
+      </div>
     </div>
   );
 };
