@@ -21,11 +21,9 @@ const cleanListeners = () => {
 /**
  * Custom hook to prevent effect by enter key press, and then clear the listeners
  */
-const usePreventEntersOnDocumentLoaded = () => {
+const usePreventEntersOnInputs = () => {
   return useEffect(() => {
-    document.addEventListener("DOMContentLoaded", () => {
-      addListeners();
-    });
+    addListeners();
 
     return () => {
       cleanListeners();
@@ -33,4 +31,4 @@ const usePreventEntersOnDocumentLoaded = () => {
   }, []);
 };
 
-export default usePreventEntersOnDocumentLoaded;
+export default usePreventEntersOnInputs;

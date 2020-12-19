@@ -1,6 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+/**
+ * Visual header
+ */
 const MyHeader = () => {
   return (
     <div className="page-header p-3 mb-2 bg-info text-white d-flex justify-content-center">

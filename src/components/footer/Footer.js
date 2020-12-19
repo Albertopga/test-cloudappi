@@ -3,9 +3,7 @@ import "@fortawesome/react-fontawesome";
 import "./footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
-// import {} from "@fortawesome/free-solid-svg-icons";
 
-//TODO: add icons and learn to use font awesome
 const Footer = () => {
   return (
     <footer className="mainfooter" role="contentinfo">
@@ -29,6 +27,7 @@ const Footer = () => {
                   <a
                     href="https://linkedin.com/in/albertopga"
                     target={"_blank"}
+                    rel="noreferrer"
                     title="Linkedin"
                     className={"linkedin"}
                   >
@@ -41,6 +40,7 @@ const Footer = () => {
                   <a
                     href="https://github.com/Albertopga"
                     target={"_blank"}
+                    rel="noreferrer"
                     title="Github"
                     className={"github"}
                   >
@@ -54,9 +54,7 @@ const Footer = () => {
           </div>
           <div className="row">
             <div className="col-md-12 copy">
-              <p className="text-center">
-                &copy; Copyright 2020 - All rights reserved only lefts.
-              </p>
+              <p className="text-center">&copy; Copyright 2020 - APG.</p>
             </div>
           </div>
         </div>

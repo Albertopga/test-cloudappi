@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e459d21b-df37-4463-987f-a5aeea32df34" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudappi/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudappi/debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudappi/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudappi/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudappi/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudappi/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudappi/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudappi/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudappi/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudappi/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudappi/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudappi/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudappi/src/assets/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudappi/src/assets/img/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudappi/src/components/footer/Footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudappi/src/components/footer/footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudappi/src/components/listResults/ListResults.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudappi/src/components/navbar/MyHeader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudappi/src/components/searchForm/SearchForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudappi/src/components/user/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudappi/src/errors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudappi/src/hooks/usePreventEntersOnDocumentLoaded.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudappi/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudappi/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudappi/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudappi/src/services/UserService.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudappi/src/services/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudappi/src/setupTests.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ls4S1a4GUWOo08nfcj2y2fRMo4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Alber\AppData\Roaming\npm\node_modules\prettier" />
+    <property name="run.prettier.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+  </component>
+  <component name="RecentsManager">
+    <key name="es6.move.members.recent.items">
+      <recent name="C:\Users\Alber\Documents\Proyectos\test-cloudappi\cloudappi\src\errors.js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alber\Documents\Proyectos\test-cloudappi" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e459d21b-df37-4463-987f-a5aeea32df34" name="Default Changelist" comment="" />
+      <created>1608372461418</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608372461418</updated>
+      <workItem from="1608372469111" duration="10983000" />
+      <workItem from="1608383610365" duration="432000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1608373845844">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1608373845844" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608378295149">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1608378295149" />
+  </component>
+</project>
