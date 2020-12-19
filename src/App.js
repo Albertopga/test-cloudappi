@@ -3,8 +3,6 @@ import { useState } from "react";
 
 import MyHeader from "./components/navbar/MyHeader";
 import Footer from "./components/footer/Footer";
-
-import usePreventEntersOnDocumentLoaded from "./hooks/usePreventEntersOnInputs";
 import SearchForm from "./components/searchForm/SearchForm";
 import ListResults from "./components/listResults/ListResults";
 
