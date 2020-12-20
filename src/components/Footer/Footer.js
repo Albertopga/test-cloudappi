@@ -20,7 +20,7 @@ const Footer = () => {
                 </p>
               </div>
             </div>
-            <div className="col-md-4 col-md-offset-4">
+            <div className="col-md-4 col-md-offset-4 my-4">
               <h4>Follow Me</h4>
               <ul className="social-network social-circle">
                 <li>

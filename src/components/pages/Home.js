@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import ListResults from "../listResults/ListResults";
-import SearchForm from "../searchForm/SearchForm";
+import ListResults from "../ListResults/ListResults";
+import SearchForm from "../SearchForm/SearchForm";
 
 const Home = () => {
   const [users, setUsers] = useState([]);

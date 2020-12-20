@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import UserService from "../../services/UserService";
-import User from "../user/User";
+import User from "../User/User";
 import { Link } from "react-router-dom";
 
 const DetailUser = (props) => {
@@ -11,7 +11,7 @@ const DetailUser = (props) => {
 
   useEffect(() => {
     searchUserById(idToSearch);
-  }, []);
+  }, [idToSearch]);
   const searchUserById = (idToSearch) => {
     UserService.getUserById(idToSearch)
       .then((result) => {
@@ -24,11 +24,15 @@ const DetailUser = (props) => {
 
   return (
     <>
-      <Link className="btn btn-outline-success my-4 mx-4" to={"/"}>
+      <Link className="btn btn-outline-secondary my-4 mx-4" to={"/"}>
         Back to home
       </Link>
       <div className="card">
-        {error ? <h3>User {error.message}</h3> : <User user={user} />}
+        {error ? (
+          <h3 className={"text-center"}>User {error.message}</h3>
+        ) : (
+          <User user={user} />
+        )}
       </div>
     </>
   );

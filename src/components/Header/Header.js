@@ -2,7 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 /**
- * Visual header
+ * Visual Header
  */
 const Header = () => {
   return (
