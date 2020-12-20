@@ -42,7 +42,7 @@ const UserService = {
   async addUser(user) {
     try {
       const response = await API.post("/users", user);
-      parseResult(response);
+      return parseResult(response);
     } catch (e) {
       parseError(e);
     }
@@ -69,6 +69,8 @@ const parseResult = (response) => {
   if (response.status === 200) return response.data;
 
   if (response.status === 404) throw new NotFoundError("Not found results");
+
+  if (response.status === 201) return response.data;
 };
 
 const parseError = (error, id = undefined) => {

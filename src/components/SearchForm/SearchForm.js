@@ -69,7 +69,7 @@ const SearchForm = ({ setError, setUsers }) => {
       <FormControl
         className="col-sm-2 "
         type="number"
-        placeholder="empty or userId"
+        placeholder="Type user Id"
         onBlur={setId}
         onKeyPress={evalValue}
       />

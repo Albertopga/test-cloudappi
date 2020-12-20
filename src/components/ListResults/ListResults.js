@@ -1,5 +1,5 @@
 import React from "react";
-import User from "../user/User";
+import User from "../User/User";
 
 /**
  * Receive the search results and the errors, by the parent component and then displayed them.

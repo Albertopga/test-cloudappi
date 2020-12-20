@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import UserService from "../../services/UserService";
-import User from "../user/User";
+import User from "../User/User";
 import { Link } from "react-router-dom";
 
 const DetailUser = (props) => {

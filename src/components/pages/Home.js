@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import ListResults from "../listResults/ListResults";
-import SearchForm from "../searchForm/SearchForm";
+import ListResults from "../ListResults/ListResults";
+import SearchForm from "../SearchForm/SearchForm";
+import CreateUser from "./CreateUser";
 
 const Home = () => {
   const [users, setUsers] = useState([]);
@@ -10,6 +11,7 @@ const Home = () => {
     <>
       <SearchForm setError={setError} setUsers={setUsers} />
       <ListResults users={users} error={error} />
+      <CreateUser />
     </>
   );
 };

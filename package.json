@@ -44,6 +44,8 @@
   "devDependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
     "axios": "^0.21.0",
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^5.2.0",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^10.12.5"
   }
 }
