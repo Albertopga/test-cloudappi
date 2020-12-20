@@ -11,7 +11,7 @@ const DetailUser = (props) => {
 
   useEffect(() => {
     searchUserById(idToSearch);
-  }, []);
+  }, [idToSearch]);
   const searchUserById = (idToSearch) => {
     UserService.getUserById(idToSearch)
       .then((result) => {
