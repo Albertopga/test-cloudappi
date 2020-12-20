@@ -33,6 +33,20 @@ const UserService = {
       parseError(e, id);
     }
   },
+
+  /**
+   *
+   * @param {{id: number, name: string, email: string }} User
+   * @return {Promise<void>}
+   */
+  async addUser(user) {
+    try {
+      const response = await API.post("/users", user);
+      parseResult(response);
+    } catch (e) {
+      parseError(e);
+    }
+  },
 };
 
 const parseResult = (response) => {
@@ -52,4 +66,5 @@ const parseError = (error, id = undefined) => {
   if (error.response.status === 404)
     throw new APIError(`The user with id:${id} not exist`);
 };
+
 export default UserService;
