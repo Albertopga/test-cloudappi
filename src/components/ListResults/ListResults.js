@@ -11,7 +11,7 @@ const ListResults = ({ users, error }) => {
   };
 
   return (
-    <div className="d-flex flex-sm-wrap ">
+    <div className="d-flex flex-sm-wrap justify-content-center ">
       {users &&
         users.map((user) => (
           <User key={user.id} user={{ name: user.name, id: user.id }} />
@@ -26,4 +26,3 @@ const ListResults = ({ users, error }) => {
 };
 
 export default ListResults;
-// d-flex flex-row  justify-content-center text-center
