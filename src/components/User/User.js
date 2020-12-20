@@ -26,7 +26,7 @@ const Info = ({ user }) => {
     <>
       <h5 className="card-title">
         {" "}
-        <Link to={`/${id}`}>
+        <Link to={`find/${id}`}>
           ({id}) {name}
         </Link>
       </h5>
