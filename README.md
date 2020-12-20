@@ -2,7 +2,7 @@
 
 ## Test specifications
 - Develop services (RESTful) in React to connect to the "backend"
-[https://my-user-manager.herokuapp.com/users]()
+[https://my-user-manager.herokuapp.com/users](https://my-user-manager.herokuapp.com/users)
 - Develop an interface that allows you to list and view the details of the users.
 - Patterns and style of front development. Good practices, cleanliness of the code.
 - Layout of the project.
@@ -16,7 +16,7 @@ I make the http requests with the Axios library and parse the result to return t
 I have used Bootstrap to design the page. A minimalist and clear style.
 
 ## Deployment Url: 
-[albertopga-cloudappi.netlify.app]()
+[https://albertopga-cloudappi.netlify.app/](https://albertopga-cloudappi.netlify.app/)
 
 ## Libraries used:
 - [Axios](https://www.npmjs.com/package/axios)
