@@ -5,6 +5,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Error from "./components/Error/Error";
 import DetailUser from "./components/pages/DetailUser";
+import CreateUser from "./components/pages/CreateUser";
 
 /**
  * Renders the components of the app and holds the app state.
@@ -16,6 +17,7 @@ const Router = () => {
       <Header />
       <Switch>
         <Route exact path="/" component={Home} />
+        <Route exact path={"/create"} component={CreateUser} />
         <Route exact path="/:id" component={DetailUser} />
         <Route component={Error} />
       </Switch>
