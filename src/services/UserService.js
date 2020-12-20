@@ -47,6 +47,20 @@ const UserService = {
       parseError(e);
     }
   },
+
+  /**
+   *
+   * @param {number} id
+   * @return {Promise<void>}
+   */
+  async deleteUserById(id) {
+    try {
+      const response = await API.delete(`/users/${id}`);
+      parseResult(response);
+    } catch (e) {
+      parseError(e);
+    }
+  },
 };
 
 const parseResult = (response) => {
