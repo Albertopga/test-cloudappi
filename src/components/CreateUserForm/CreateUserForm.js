@@ -48,12 +48,12 @@ const CreateUserForm = () => {
 
   return (
     <>
-      <h1 className={"text-center"}>
+      <h5 className={"text-center"}>
         Complete the inputs to create a new User
-      </h1>
+      </h5>
       <Form inline className="justify-content-center my-5">
         <FormControl
-          className="col-sm-2 "
+          className="col-sm-2"
           type="text"
           name={"name"}
           placeholder="Name"
@@ -61,14 +61,18 @@ const CreateUserForm = () => {
           onChange={setValues}
         />
         <FormControl
-          className="col-sm-2 "
+          className="col-sm-2 my-2"
           type="email"
           name={"email"}
           placeholder="Email"
           value={email}
           onChange={setValues}
         />
-        <Button className="mx-4" variant="outline-success" onClick={createUser}>
+        <Button
+          className="mx-4 "
+          variant="outline-success"
+          onClick={createUser}
+        >
           Create new User
         </Button>
       </Form>
