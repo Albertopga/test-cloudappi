@@ -7,6 +7,13 @@
 - Patterns and style of front development. Good practices, cleanliness of the code.
 - Layout of the project.
 
+## Description of the application
+Application to connect with an api and list the names of all users or the name of the user selected by id.
+After listing the results, we can see the details of the user by clicking on the username link.
+I include a button to create a new user and send it to the api.
+
+I make the http requests with the Axios library and parse the result to return the correct data.
+I have used Bootstrap to design the page. A minimalist and clear style.
 
 ## Deployment Url: 
 [albertopga-cloudappi.netlify.app]()
