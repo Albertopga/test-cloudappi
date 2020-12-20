@@ -17,9 +17,9 @@ const ListResults = ({ users, error }) => {
           <User key={user.id} user={{ name: user.name, id: user.id }} />
         ))}
       {error && (
-        <h3>
+        <h5>
           {parseErrorMessages()} {error.message}
-        </h3>
+        </h5>
       )}
     </div>
   );
