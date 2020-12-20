@@ -3,7 +3,6 @@ import { isEmpty, toPairs } from "lodash";
 import { Link } from "react-router-dom";
 
 const Details = ({ user }) => {
-  console.log("details");
   const { name, id, ...restUser } = user;
 
   return (
@@ -22,7 +21,6 @@ const Details = ({ user }) => {
 
 const Info = ({ user }) => {
   const { name, id } = user;
-  console.log("info");
 
   return (
     <>

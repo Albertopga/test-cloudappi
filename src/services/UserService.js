@@ -1,5 +1,5 @@
 import API from "./config";
-import { APIError, NotFoundError } from "../errors";
+import { APIError, ConnectionFailure, NotFoundError } from "../errors";
 
 /**
  * A number, or a string containing a number.
@@ -16,8 +16,7 @@ const UserService = {
       const response = await API.get("/users");
       return parseResult(response);
     } catch (e) {
-      console.error(e.message);
-      throw new APIError(e.message);
+      parseError(e);
     }
   },
 
@@ -31,8 +30,7 @@ const UserService = {
       const response = await API.get(`/users/${id}`);
       return parseResult(response);
     } catch (e) {
-      console.error(e.message);
-      throw new APIError(e.message);
+      parseError(e, id);
     }
   },
 };
@@ -42,10 +40,16 @@ const parseResult = (response) => {
 
   if (response.status === 200) return response.data;
 
-  if (response.status === 404) throw new NotFoundError(response.statusText);
-
-  console.error(`${response.status}, ${response.statusText}`);
-  throw new APIError(response.statusText);
+  if (response.status === 404) throw new NotFoundError("Not found results");
 };
 
+const parseError = (error, id = undefined) => {
+  if (!error.response) throw new ConnectionFailure("Fail to connect at api");
+
+  if (error.response.status === 400)
+    throw new APIError("To search by Id, need type a valid Id on input");
+
+  if (error.response.status === 404)
+    throw new APIError(`The user with id:${id} not exist`);
+};
 export default UserService;

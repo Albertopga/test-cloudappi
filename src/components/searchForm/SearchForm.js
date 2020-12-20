@@ -33,6 +33,7 @@ const SearchForm = ({ setError, setUsers }) => {
         storeUsers(users);
       })
       .catch((err) => {
+        console.log(err);
         storeErrors(err);
       });
   };
