@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import UserService from "../../services/UserService";
 import User from "../User/User";
 import { Link } from "react-router-dom";
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 
 const DetailUser = (props) => {
   const idToSearch = props.match.params.id;
@@ -12,6 +14,7 @@ const DetailUser = (props) => {
   useEffect(() => {
     searchUserById(idToSearch);
   }, [idToSearch]);
+
   const searchUserById = (idToSearch) => {
     UserService.getUserById(idToSearch)
       .then((result) => {
@@ -24,6 +27,7 @@ const DetailUser = (props) => {
 
   return (
     <>
+      <Header />
       <Link className="btn btn-outline-secondary my-4 mx-4" to={"/"}>
         Back to home
       </Link>
@@ -34,6 +38,7 @@ const DetailUser = (props) => {
           <User user={user} />
         )}
       </div>
+      <Footer />
     </>
   );
 };

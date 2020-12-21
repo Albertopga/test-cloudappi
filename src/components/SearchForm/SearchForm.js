@@ -60,11 +60,11 @@ const SearchForm = ({ setError, setUsers }) => {
   };
 
   return (
-    <Form inline className="justify-content-center my-5">
+    <Form inline className="justify-content-center my-1">
       <Button variant="outline-info my-4" onClick={searchAllUsers}>
         Search All
       </Button>
-      <Button className="mx-4 my-4" variant="outline-info" onClick={search}>
+      <Button className="mx-4 my-1" variant="outline-info" onClick={search}>
         Search By Id
       </Button>
       <FormControl

@@ -80,7 +80,7 @@ const parseError = (error, id = undefined) => {
     throw new APIError("To search by Id, need type a valid Id on input");
 
   if (error.response.status === 404)
-    throw new APIError(`The user with id ${id} not exist`);
+    throw new APIError(`The user with id ${id} does not exist`);
 };
 
 export default UserService;

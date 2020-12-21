@@ -10,8 +10,8 @@ const Footer = () => {
       <div className="footer-middle">
         <div className="container">
           <div className="row">
-            <div className="col-xl col-sm-6">
-              <div className="footer-pad">
+            <div className="col-lg-10">
+              <div className="footer-pad d-none d-lg-block">
                 <h4>About me</h4>
                 <p>
                   My name is Alberto Pérez and I am a beginner but with a lot of
@@ -20,7 +20,7 @@ const Footer = () => {
                 </p>
               </div>
             </div>
-            <div className="col-md-4 col-md-offset-4 my-4">
+            <div className="col-lg-2 text-center my-2">
               <h4>Follow Me</h4>
               <ul className="social-network social-circle">
                 <li>
