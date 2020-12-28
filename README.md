@@ -26,4 +26,5 @@ I have used Bootstrap to design the page. A minimalist and clear style.
 - [React](https://www.npmjs.com/package/react)
 - [FontAwesomeIcon](https://www.npmjs.com/package/@fortawesome/react-fontawesome)
 
-
+## Improvementes
+- 28/12/20 During charge time show a image. In local Is not necessary  but in production, the first time I load the data it takes time to appear
